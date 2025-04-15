@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zyllo - Features</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-image: url("website-background-templates.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .navbar {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background: transparent !important;
+      }
+      .navbar-nav .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+      .features {
+        padding: 150px 20px 80px;
+        text-align: center;
+        color: white;
+      }
+      .features h2 {
+        font-size: 3.5rem;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+        color: white;
+      }
+      .feature-cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .feature-card {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.1
+        ); /* Semi-transparent background */
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        flex-basis: 30%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+        color: white;
+        text-align: center;
+      }
+      .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+      }
+      .feature-card strong {
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 10px;
+        display: block;
+      }
+      .feature-card p {
+        font-size: 1.2rem;
+        color: white;
+      }
+      footer {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="Logo-.png" alt="Zyllo Logo" style="height: 40px" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="overview.html">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feature.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="roles.html">Roles</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="features" class="features">
+      <h2>Features</h2>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <strong>Simple Request Process</strong>
+          <p>Easily submit role requests with a straightforward form.</p>
+        </div>
+        <div class="feature-card">
+          <strong>Efficient Approval Workflow</strong>
+          <p>Streamlined approval process for faster turnaround.</p>
+        </div>
+        <div class="feature-card">
+          <strong>Role Management</strong>
+          <p>Manage roles effectively with clear visibility and control.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Zyllo - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
