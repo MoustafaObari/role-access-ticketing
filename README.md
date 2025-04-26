@@ -60,6 +60,21 @@ Visit the app: [http://localhost:3000](http://localhost:3000)
 
 ---
 
+# 📸 Screenshots
+
+| Home Page | Submit Access Request |
+|:---------:|:---------------------:|
+| ![Home](./Role%20Access%20ScreenShots/Screenshot%202025-04-26%20090125.png) | ![Submit](./Role%20Access%20ScreenShots/Screenshot%202025-04-26%20090156.png) |
+
+| Review Tickets | First Approver Dashboard |
+|:--------------:|:------------------------:|
+| ![Review](./Role%20Access%20ScreenShots/Screenshot%202025-04-26%20090558.png) | ![Approver1](./Role%20Access%20ScreenShots/Screenshot%202025-04-26%20090639.png) |
+
+| Second Approver Dashboard | Ticket Overview |
+|:-------------------------:|:----------------:|
+| ![Approver2](./Role%20Access%20ScreenShots/Screenshot%202025-04-26%20090724.png) | ![Overview](./Role%20Access%20ScreenShots/Screenshot%202025-04-26%20090701.png) |
+
+
 ## 👨‍💻 Developer
 
 **Moustafa Obari**  
