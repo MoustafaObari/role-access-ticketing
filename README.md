@@ -1,3 +1,11 @@
+![HTML5](https://img.shields.io/badge/Frontend-HTML5-orange)
+![CSS3](https://img.shields.io/badge/Frontend-CSS3-blue)
+![Bootstrap](https://img.shields.io/badge/UI-Bootstrap4-purple)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![Express](https://img.shields.io/badge/Framework-Express.js-lightgrey)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-yellow)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # 🔐 Role Access Ticketing System
 A full-stack application that enables multi-level ticket approvals for enterprise role-based access control. Built using **Node.js**, **Express**, and **MongoDB**, this project simulates how employees request feature access and how managers and approvers review and approve/reject those requests.
 
